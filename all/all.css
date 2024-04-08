@@ -1,0 +1,350 @@
+body{
+    position: relative;
+}
+.wix-madefor text-uniquifier{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.startabs{
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 100.8%;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.startsale{
+    z-index: 999;
+    color: white;
+}
+nav{
+    background-color: aliceblue;
+    position: absolute;
+    left: -8px;
+    top: 42px;
+    width: 100.8%;
+}
+.batonebi{
+    display: flex;
+}
+.main{
+    background-color: yellow;
+    border-width: 0.5px;
+    border-color: black;
+    border-radius: 0;
+}
+.space{
+    background-color: white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 0.5px solid black;
+    border-radius: 0;
+}
+.new{
+    background-color: white;
+    border-right: 0.5px solid black;
+    border-left: none;
+    border-top: none;
+    border-bottom: 0.5px solid black;
+    border-radius: 0;
+}
+.women{
+    background-color: white;
+    border-right: 0.5px solid black;
+    border-left: none;
+    border-top: none;
+    border-bottom: 0.5px solid black;
+    border-radius: 0;
+}
+.men{
+    background-color: white;
+    border-right: 0.5px solid black;
+    border-left: none;
+    border-top: none;
+    border-bottom: 0.5px solid black;
+    border-radius: 0;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-right: 0.5px solid black;
+    border-left: none;
+    border-top: none;
+    border-bottom: 0.5px solid black;
+    border-radius: 0;
+}
+.p{
+    font-size: 16px;
+    transition: 0.4s;
+}
+.p1{
+    font-size: 16px;
+}
+.p1:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+#user{
+    font-size: 25px;
+}
+#user:hover{
+    cursor: pointer;
+}
+#bag{
+    font-size: 25px;
+}
+#bag:hover{
+    cursor: pointer;
+}
+#navbut{
+    width: 306px;
+    height: 70px;
+}
+#navbut1{
+    width: 306px;
+    height: 70px;
+    transition: 0.4s;
+}
+#navbut2{
+    width: 306px;
+    height: 70px;
+}
+#navbut1:hover{
+    cursor: pointer;
+    background-color: black;
+    .p{
+        color: orange;
+    }
+    transition: 0.4s;
+}
+#navbut2:hover{
+    cursor: pointer;
+}
+.pathabs{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+}
+.path{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    margin-left: 70px;
+}
+#pathar{
+    text-align: center; 
+    font-size: 15px;
+    margin-top: 16px;
+}
+.kateabs{
+    position: absolute;
+    top: 170px;
+    width: 200px;
+    left: 70px;
+    height: 450px;
+}
+.kate{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.browse{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.browseline{
+    width: 200px;
+    height: 1px;
+    background-color: gray;
+}
+#browselist{
+    height: 2px;
+}
+#browselist:hover{
+    cursor: pointer;
+    color: gray;
+}
+.browseup{
+    font-size: 24px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+.filterline{
+    width: 200px;
+    height: 1px;
+    background-color: gray;
+}
+.filterup{
+    font-size: 24px;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap: 0;;
+}
+.filtersup{
+    display: flex;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    gap: 10px;
+}
+.filterscentre{
+    display: flex;
+    margin-bottom: -15px;
+    gap: 10px;
+}
+.filtersdown{
+    display: flex;
+    gap: 10px;
+}
+.dropheadabs{
+    position: absolute;
+    top: 170px;
+    left: 350px;
+}
+.drophead{
+    display: flex;
+}
+.dropheadh1{
+    font-size: 60px;
+}
+.sortsabs{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    width: 1150px;
+}
+.sorts{
+    display: flex;
+    justify-content: space-between;
+}
+#reco{
+    margin-left: 5px;
+}
+.maikebi{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    width: 1150px;
+}
+.maikebiflex{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.maikebiflex1{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.maikebiflex2{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.maikebiflex3{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.maikebiflex4{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.maika{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+#maikp{
+    height: 10px;
+    font-size: 20px;
+}
+.maika:hover{
+    cursor: pointer;
+}
+.we{
+    width: 245px;
+    height: 344px;
+}
+.endabs{
+    position: absolute;
+    top: 2350px;
+    width: 100%;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.endup{
+    display: flex;
+}
+.aqet1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 475px;
+    height: 282px;
+}
+.endtshop{
+    color: white;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.endmail{
+    color: white;
+    height: 1px;
+}
+.endtel{
+    color: white;
+}
+.iqit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    width: 1100px;
+    height: 280px;
+    border: solid 1px black;
+}
+.enddown{
+    display: flex;
+}
+.aqet2{
+    display: flex;
+    width: 471px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid black;
+}
+#logoebi{
+    font-size: 20px;
+}
+.iqit2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 1100px;
+    height: 75px;
+    border: 1px solid black;
+}
