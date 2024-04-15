@@ -1,5 +1,186 @@
-@media screen and (max-width: 316px){
+@media screen and (max-width: 320px){
     nav{
         display: none;
+    }
+    .start{
+        width: 320px;
+    }
+    .startsale{
+        text-align: center;
+        width: 250px;
+    }
+    .nav2abs{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 320px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+    }
+    .nav2h{
+        padding-left: 20px;
+    }
+    #bag2{
+        font-size: 25px;
+    }
+    #menu{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+    .bodystartabs{
+        left: 0;
+    }
+    .qali{
+        width: 275px;
+        height: 290px;
+    }
+    .qalis{
+        width: 275px;
+        height: 290px;
+        z-index: 999;
+    }
+    .kaci{
+        display: none;
+    }
+    .kacis{
+        display: none;
+    }
+    .maisuri{
+        width: 275px;
+        height: 290px;
+    }
+    .maisuris{
+        width: 73px;
+        height: 290px;
+        z-index: 999;
+    }
+    .newp{
+        display: none;
+    }
+    .grad{
+        width: 320px;
+        gap: 3px;
+    }
+    .trio{
+        gap: 3px;
+    }
+    .droplineabs{
+        top: 700px;
+    }
+    .maikebi{
+        top: 850px;
+    }
+    #foto{
+        width: 140px;
+        height: 190px;
+    }
+    .maikebiflex{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .maikebiflex1{
+        flex-direction: column;
+    }
+    .maikebiflex2{
+        flex-direction: column;
+    }
+    .shopbut{
+        width: 160px;
+        height: 45px;
+    }
+    .sale{
+        flex-direction: column;
+    }
+    .left{
+        width: 320px;
+        height: 320px;
+    }
+    .off25{
+        font-size: 50px;
+        height: 30px;
+    }
+    .p25{
+        width: 200px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .right{
+        width: 320px;
+        height: 400px;
+    }
+    .saleabs{
+        left: -8px;
+    }
+    #isrebi{
+        display: none;
+    }
+    #isrebi2{
+        display: block;
+        font-size: 50px;
+        padding-top: 13px;
+    }
+    .firstorder{
+        flex-direction: column;
+        align-items: center;
+    }
+    .centri{
+        text-align: center;
+        font-size: 25px;
+    }
+    .endabs{
+        top: 3400px;
+        left: -8px;
+    }
+    .endup{
+        flex-direction: column;
+    }
+    .enddown{
+        flex-direction: column;
+    }
+    .aqet1{
+        width: 320px;
+        height: 140px;
+        align-items: start;
+    }
+    .endtshop{
+        margin-left: 20px;
+    }
+    .endmail{
+        margin-left: 20px;
+    }
+    .endtel{
+        margin-left: 20px;
+    }
+    .iqit1{
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+        height: 480px;
+        width: 320px;
+    }
+    .st{
+        margin-left: 20px;
+    }
+    .nd{
+        margin-left: 20px;
+    }
+    .rd{
+        margin-left: 20px;
+    }
+    .aqet2{
+        width: 320px;
+    }
+    .iqit2{
+        width: 320px;
+    }
+    .wix{
+        width: 200px;
+        text-align: center;
     }
 }
