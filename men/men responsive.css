@@ -1,0 +1,136 @@
+@media screen and (max-width: 320px){
+    nav{
+        display: none;
+    }
+    .start{
+        width: 320px;
+    }
+    .startsale{
+        text-align: center;
+        width: 250px;
+    }
+    .nav2abs{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 320px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+    }
+    .nav2h{
+        padding-left: 20px;
+    }
+    #bag2{
+        font-size: 25px;
+    }
+    #menu{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+    .pathabs{
+        top: 140px;
+        left: -50px;
+    }
+    .kateabs{
+        display: none;
+    }
+    .dropheadabs{
+        left: 15px;
+    }
+    .dropheadh1{
+        font-size: 50px;
+    }
+    .sortsabs{
+        left: 15px;
+        width: 320px;
+        top: 270px;
+    }
+    .sorts{
+        justify-content: space-between;
+    }
+    .reco{
+        display: none;
+    }
+    .reco2{
+        display: block;
+        margin-right: 30px;
+        text-decoration: underline;
+    }
+    .maikebi{
+        left: 5px;
+        top: 370px;
+    }
+    .we{
+        width: 140px;
+        height: 190px;
+    }
+    .maikebiflex{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .maikebiflex1{
+        flex-direction: column;
+    }
+    .maikebiflex2{
+        flex-direction: column;
+    }
+    .endabs{
+        top: 1700px;
+        left: -8px;
+    }
+    .endup{
+        flex-direction: column;
+    }
+    .enddown{
+        flex-direction: column;
+    }
+    .aqet1{
+        width: 320px;
+        height: 140px;
+        align-items: start;
+    }
+    .endtshop{
+        margin-left: 20px;
+    }
+    .endmail{
+        margin-left: 20px;
+    }
+    .endtel{
+        margin-left: 20px;
+    }
+    .iqit1{
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+        height: 480px;
+        width: 320px;
+    }
+    .st{
+        margin-left: 20px;
+    }
+    .nd{
+        margin-left: 20px;
+    }
+    .rd{
+        margin-left: 20px;
+    }
+    .aqet2{
+        width: 320px;
+    }
+    .iqit2{
+        width: 320px;
+    }
+    .wix{
+        width: 200px;
+        text-align: center;
+    }
+    body{
+        width: 320px;
+    }
+}
